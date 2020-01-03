@@ -105,7 +105,7 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
 
     @Override
     public boolean onKeyUp(int primaryCode, KeyEvent event) {
-        Log.d("SAM", "keyup: " + primaryCode);
+        Log.d("HQWERTY", "keyup: " + primaryCode);
         InputConnection inputConnection = getCurrentInputConnection();
         String out = "";
         switch(primaryCode) {
